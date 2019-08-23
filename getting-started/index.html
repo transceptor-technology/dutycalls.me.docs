@@ -440,19 +440,21 @@
 <p>A source is literally the source from where you receive notifications. It is probably the system that you want to connect to DutyCalls. You do not actually have to connect your system to DutyCalls, as it uses a REST API. But you must indicate what you are going to send. Notifications can of course be sent in any format and DutyCalls not how he should interpret these notifications.</p>
 <p>To add a source you have to go to the sources page, click here on the <strong>Add source</strong> button.</p>
 <p><img alt="image - Add a source - Step 1" src="../images/add-source-1.png" /></p>
-<p>Here you will be asked for a name and then for a sample of a notification. This sample is just an example of a notification (must be valid JSON) from the system that you want to connect to DutyCalls. After pasting it, you can map all or your keys / values to the corresponding properties of a notification within DutyCalls. Lastly, click on the <strong>Add</strong> button and the source will be added to your workspace.</p>
+<p>Here you will be asked for a name and optionally for a sample of a notification. This depends on whether you want to send notifications with a custom format or not.</p>
 <p><img alt="image - Add a source - Step 2" src="../images/add-source-2.png" /></p>
-<p>As a result, DutyCalls knows how to display your notification. It is of course possible to disable some properties of a notification. It may of course be possible that, for example, you do not have to show a link in a notification or that for example no severity is included in a notification. There are, however, a number of mandatory fields. These are: <code>'channel'</code>, <code>'title'</code>, <code>'body'</code>, <code>'date / time'</code>.</p>
+<p>A sample is just an example of a notification (must be valid JSON) from the system that you want to connect to DutyCalls. After pasting it, you can map all or your keys / values to the corresponding properties of a notification within DutyCalls. Lastly, click on the <strong>Add</strong> button and the source will be added to your workspace.</p>
+<p><img alt="image - Add a source - Step 3" src="../images/add-source-3.png" /></p>
+<p>As a result, DutyCalls knows how to use and display your notification. It is also possible to disable some properties of a notification. It may of course be possible that, for example, you do not have to show a link in a notification or no severity is included in a notification. There are, however, a number of mandatory properties. These are: <code>'title'</code>, <code>'body'</code>, <code>'dateTime'</code>.</p>
 <h2 id="step-3-add-a-channel">Step 3 - Add a channel</h2>
 <p>The next logical step is to add a channel.</p>
 <h3 id="what-is-a-channel">What is a channel?</h3>
-<p>A channel can be seen as a path a notification follows after being sent. Remember when adding the source, it was also mandatory to provide the name of a channel? All of the notifications from all of the sources that provide the same name will gather here. Users will be able to subscribe to these channels, what ensures that they also receive these notifications.</p>
+<p>A channel can be seen as a path a notification follows after being sent. All of the notifications from all of the sources that provide the same name will gather here. When sending a notification to DutyCalls, it is also mandatory to provide the name of one or more channels. Users will be able to subscribe to these channels, what ensures that they will receive these notifications.</p>
 <p>To add a channel. Go to the channels page and click on the <strong>Add channel</strong> button.</p>
 <p><img alt="image - Add a channel - Step 1" src="../images/add-channel-1.png" /></p>
 <p>You will have to fill in the following information:</p>
 <ul>
 <li>Name: The name of the new channel.</li>
-<li>Manager: A manager is ultimately responsible person within a channel and will, among other things, receive warnings when something is wrong within a channel. Every user within the workspace can be designated as a manager.</li>
+<li>Manager: A manager is ultimately responsible person within a channel and will, among other things, receive warnings when something is wrong within a channel. Every user within the workspace can be designated as a manager of a channel.</li>
 <li>Source: By selecting the source, the channel knows from source it must receive notifications.</li>
 <li>Schedules: Schedules or rather 'ignore schedules' are used to indicate when you do not want the channel to receive notifications. This does not have to be done immediately and can always be added / adjusted at a later stage. (optional)</li>
 <li>Status: The status indicates whether the channel is active or not. Only when a channel is active, it can receive notifications.</li>

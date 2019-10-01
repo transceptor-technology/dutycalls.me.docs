@@ -1,0 +1,10 @@
+site_name: DutyCalls
+theme:
+  name: material
+  palette:
+    primary: 'white'
+    accent: 'red'
+nav:
+- Introduction: 'index.md'
+- Getting started: 'getting-started.md'
+- REST API: 'rest-api.md'

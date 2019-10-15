@@ -1,6 +1,8 @@
 site_name: DutyCalls
 theme:
   name: material
+  favicon: 'images/favicon.ico'
+  logo: 'images/icon-black.png'
   palette:
     primary: 'white'
     accent: 'red'

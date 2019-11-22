@@ -32,7 +32,7 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../images/favicon.ico">
-      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.3">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.5.0">
     
     
       
@@ -40,7 +40,7 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/application.30686662.css">
+      <link rel="stylesheet" href="../assets/stylesheets/application.1b62728e.css">
       
         <link rel="stylesheet" href="../assets/stylesheets/application-palette.a8b3c06d.css">
       
@@ -51,7 +51,7 @@
       
     
     
-      <script src="../assets/javascripts/modernizr.74668098.js"></script>
+      <script src="../assets/javascripts/modernizr.268332fc.js"></script>
     
     
       
@@ -62,6 +62,8 @@
     
     <link rel="stylesheet" href="../assets/fonts/material-icons.css">
     
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
     
     
       
@@ -468,8 +470,8 @@
 <p>You will have to fill in the following information:</p>
 <ul>
 <li>Name: The name of the new channel.</li>
-<li>Manager: A manager is ultimately responsible person within a channel and will, among other things, receive warnings when something is wrong within a channel. Every user within the workspace can be designated as a manager of a channel.</li>
-<li>Source: By selecting the source, the channel knows from source it must receive notifications.</li>
+<li>Manager: A manager is ultimately responsible person within a channel and will, among other things, receive warnings when something is wrong within a channel. Every user within a workspace can be designated as a manager of a channel.</li>
+<li>Source: By selecting the source, the channel knows from which source it must receive notifications.</li>
 <li>Minimum subscribers: A minimum number of subscribers have to be defined. If this minimum is not reached, a warning will be raised.</li>
 <li>Schedules: Schedules or rather 'ignore schedules' are used to indicate when you do not want the channel to receive notifications. This does not have to be done immediately and can always be added / adjusted at a later stage. (optional)</li>
 </ul>
@@ -477,7 +479,7 @@
 <p><img alt="image - Add a channel - Step 2" src="../images/add-channel-2.png" /></p>
 <h2 id="step-4-send-a-test-notification">Step 4 - Send a test notification</h2>
 <p>To check if everything is set up properly, go back to the sources page and click on the <strong>Setup</strong> button of the source that you have just added.
-A dialog now shows up. Click on the second tab called <strong>Send test notification</strong> and you are ready to send a test notification. Just fill in the required fields
+A dialog now shows up. Click on the second tab called <strong>Test Notification</strong> and you are ready to send a test notification. Just fill in the required fields
 and click on the <strong>Send</strong> button. If all is well, you should now see a notification in the inbox.</p>
 <p><img alt="image - Send test notification" src="../images/setup-source-dialog-2.png" /></p>
 <h2 id="where-to-next">Where to next?</h2>
@@ -500,16 +502,27 @@ and click on the <strong>Send</strong> button. If all is well, you should now se
       </main>
       
         
+
+<!-- Application footer -->
 <footer class="md-footer">
+
+  <!-- Link to previous and/or next page -->
   
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
+
+        <!-- Link to previous page -->
         
-          <a href=".." title="Introduction" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href=".."
+              title="Introduction"
+              class="md-flex md-footer-nav__link md-footer-nav__link--prev"
+              rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
-              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+              <i class="md-icon md-icon--arrow-back
+                    md-footer-nav__button"></i>
             </div>
-            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+            <div class="md-flex__cell md-flex__cell--stretch
+                  md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Previous
@@ -519,9 +532,15 @@ and click on the <strong>Send</strong> button. If all is well, you should now se
             </div>
           </a>
         
+
+        <!-- Link to next page -->
         
-          <a href="../rest-api/" title="REST API" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
-            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+          <a href="../rest-api/"
+              title="REST API"
+              class="md-flex md-footer-nav__link md-footer-nav__link--next"
+              rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch
+                  md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
@@ -530,23 +549,34 @@ and click on the <strong>Send</strong> button. If all is well, you should now se
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
-              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+              <i class="md-icon md-icon--arrow-forward
+                    md-footer-nav__button"></i>
             </div>
           </a>
         
       </nav>
     </div>
   
+
+  <!-- Further information -->
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
+
+      <!-- Copyright and theme information -->
       <div class="md-footer-copyright">
         
-        powered by
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2019 Transceptor Technology
+          </div>
+        
+        <!-- powered by
         <a href="https://www.mkdocs.org">MkDocs</a>
         and
         <a href="https://squidfunk.github.io/mkdocs-material/">
-          Material for MkDocs</a>
+          Material for MkDocs</a> -->
       </div>
+
+      <!-- Social links -->
       
     </div>
   </div>
@@ -554,7 +584,7 @@ and click on the <strong>Send</strong> button. If all is well, you should now se
       
     </div>
     
-      <script src="../assets/javascripts/application.ac79c3b0.js"></script>
+      <script src="../assets/javascripts/application.a8b5e56f.js"></script>
       
       <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
       

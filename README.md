@@ -1,21 +1,38 @@
 # DutyCalls documentation
 
+This is the repository for the DutyCalls documentation. It makes use of the Material theme and MkDocs.
+
 ## Installation
 
-To install MkDocs:
-`pip install mkdocs`
+Installing and verifying MkDocs is as simple as:
 
-To install the used theme:
-`pip install mkdocs-material`
+```bash
+pip install mkdocs && mkdocs --version
+# mkdocs, version 0.17.1
+```
+
+>Material requires MkDocs >= 0.17.1.
+
+Material can be installed with pip:
+
+```bash
+pip install mkdocs-material
+```
 
 ## Running
 
-`mkdocs serve`
+```bash
+mkdocs serve
+```
 
 ## Building
 
-`mkdocs build`
+```bash
+mkdocs build
+```
 
 ## Deploying
 
-`mkdocs gh-deploy`
+```bash
+mkdocs gh-deploy
+```

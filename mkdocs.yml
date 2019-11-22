@@ -1,12 +1,23 @@
+# Project information
 site_name: DutyCalls
+
+# Copyright
+copyright: 'Copyright &copy; 2019 Transceptor Technology'
+
+# Configuration
 theme:
   name: material
-  favicon: 'images/favicon.ico'
-  logo: 'images/icon-black.png'
+  custom_dir: theme
+  favicon: images/favicon.ico
+  logo: images/icon-black.png
   palette:
-    primary: 'white'
-    accent: 'red'
+    primary: white
+    accent: red
+
 nav:
-- Introduction: 'index.md'
-- Getting started: 'getting-started.md'
-- REST API: 'rest-api.md'
+- Introduction: index.md
+- Getting started: getting-started.md
+- REST API: rest-api.md
+
+extra_css:
+  - stylesheets/extra.css

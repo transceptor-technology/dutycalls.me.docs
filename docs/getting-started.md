@@ -55,8 +55,8 @@ To add a channel. Go to the channels page and click on the **Add channel** butto
 You will have to fill in the following information:
 
 * Name: The name of the new channel.
-* Manager: A manager is ultimately responsible person within a channel and will, among other things, receive warnings when something is wrong within a channel. Every user within the workspace can be designated as a manager of a channel.
-* Source: By selecting the source, the channel knows from source it must receive notifications.
+* Manager: A manager is ultimately responsible person within a channel and will, among other things, receive warnings when something is wrong within a channel. Every user within a workspace can be designated as a manager of a channel.
+* Source: By selecting the source, the channel knows from which source it must receive notifications.
 * Minimum subscribers: A minimum number of subscribers have to be defined. If this minimum is not reached, a warning will be raised.
 * Schedules: Schedules or rather 'ignore schedules' are used to indicate when you do not want the channel to receive notifications. This does not have to be done immediately and can always be added / adjusted at a later stage. (optional)
 
@@ -67,7 +67,7 @@ Now click on the **Add** button and the new channel will be added to your worksp
 ## Step 4 - Send a test notification
 
 To check if everything is set up properly, go back to the sources page and click on the **Setup** button of the source that you have just added.
-A dialog now shows up. Click on the second tab called **Send test notification** and you are ready to send a test notification. Just fill in the required fields
+A dialog now shows up. Click on the second tab called **Test Notification** and you are ready to send a test notification. Just fill in the required fields
 and click on the **Send** button. If all is well, you should now see a notification in the inbox.
 
 ![image - Send test notification](images/setup-source-dialog-2.png)

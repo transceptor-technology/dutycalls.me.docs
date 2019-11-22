@@ -32,7 +32,7 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../images/favicon.ico">
-      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.3">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.5.0">
     
     
       
@@ -40,7 +40,7 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/application.30686662.css">
+      <link rel="stylesheet" href="../assets/stylesheets/application.1b62728e.css">
       
         <link rel="stylesheet" href="../assets/stylesheets/application-palette.a8b3c06d.css">
       
@@ -51,7 +51,7 @@
       
     
     
-      <script src="../assets/javascripts/modernizr.74668098.js"></script>
+      <script src="../assets/javascripts/modernizr.268332fc.js"></script>
     
     
       
@@ -62,6 +62,8 @@
     
     <link rel="stylesheet" href="../assets/fonts/material-icons.css">
     
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
     
     
       
@@ -322,16 +324,17 @@
 <h2 id="overview">Overview</h2>
 <p>A REST API is used for accessing and manipulating data within DutyCalls by third parties.</p>
 <h2 id="authentication">Authentication</h2>
-<p>All API calls require authentication. The authentication scheme we use for HTTP requests, is Basic Authentication. In every request the header field in the form of <code>Authorization: Basic &lt;credentials&gt;</code> must be added. Where credentials is the API key of a source.</p>
-<p>You can find this API key by:</p>
+<p>All API calls require authentication. The authentication scheme we use for HTTP requests, is Basic Authentication. In every request a combination of a username (consumerKey) and a password (consumerSecret) must be provided. It is also possible to provide the following <code>Authorization</code> header: <code>Basic &lt;credentials&gt;</code> in a request. Where credentials is a base64-encoded string of <code>username:password</code>.</p>
+<p>You can find these credentials by:</p>
 <ol>
 <li>Going to the sources page in your workspace.</li>
 <li>Clicking on the <strong>Setup</strong> button of the relevant source.</li>
-<li>Copying the API key from the setup dialog.</li>
+<li>Verifying that you are authorized to access these credentials.</li>
+<li>Copying the relevant credentials from the setup dialog.</li>
 </ol>
-<p><img alt="image - Get API key" src="../images/setup-source-dialog-1.png" /></p>
+<p><img alt="image - Get credentials" src="../images/setup-source-dialog-1.png" /></p>
 <blockquote>
-<p><strong>Important</strong>: You should store your API key in a secure location. It is important to keep your API key confidential to protect your account.</p>
+<p><strong>Important</strong>: You should store your credentials in a secure location. It is important to keep your credentials confidential to protect your account.</p>
 </blockquote>
 <h2 id="api-specifications-and-testing">API specifications and testing</h2>
 <p>For user-friendliness, we have documented and hosted the API specifications in <a href="https://app.swaggerhub.com/apis-docs/robbm1/DutyCalls/1.0.0">Swagger</a>. Besides the easy of use, this also makes it very easy for you to manually test our API.</p>
@@ -350,16 +353,27 @@
       </main>
       
         
+
+<!-- Application footer -->
 <footer class="md-footer">
+
+  <!-- Link to previous and/or next page -->
   
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
+
+        <!-- Link to previous page -->
         
-          <a href="../getting-started/" title="Getting started" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../getting-started/"
+              title="Getting started"
+              class="md-flex md-footer-nav__link md-footer-nav__link--prev"
+              rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
-              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+              <i class="md-icon md-icon--arrow-back
+                    md-footer-nav__button"></i>
             </div>
-            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+            <div class="md-flex__cell md-flex__cell--stretch
+                  md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Previous
@@ -369,20 +383,32 @@
             </div>
           </a>
         
+
+        <!-- Link to next page -->
         
       </nav>
     </div>
   
+
+  <!-- Further information -->
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
+
+      <!-- Copyright and theme information -->
       <div class="md-footer-copyright">
         
-        powered by
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2019 Transceptor Technology
+          </div>
+        
+        <!-- powered by
         <a href="https://www.mkdocs.org">MkDocs</a>
         and
         <a href="https://squidfunk.github.io/mkdocs-material/">
-          Material for MkDocs</a>
+          Material for MkDocs</a> -->
       </div>
+
+      <!-- Social links -->
       
     </div>
   </div>
@@ -390,7 +416,7 @@
       
     </div>
     
-      <script src="../assets/javascripts/application.ac79c3b0.js"></script>
+      <script src="../assets/javascripts/application.a8b5e56f.js"></script>
       
       <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
       

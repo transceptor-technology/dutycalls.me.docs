@@ -21,4 +21,4 @@ You can find these credentials by:
 
 ## API specifications and testing
 
-For user-friendliness, we have documented and hosted the API specifications in [Swagger](https://app.swaggerhub.com/apis-docs/robbm1/DutyCalls/1.0.0). Besides the easy of use, this also makes it very easy for you to manually test our API.
+For user-friendliness, we have documented and hosted the API specifications in [Swagger](https://app.swaggerhub.com/apis-docs/robbm1/DutyCalls). Besides the easy of use, this also makes it very easy for you to manually test our API.

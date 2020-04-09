@@ -9,10 +9,10 @@ theme:
   name: material
   custom_dir: theme
   favicon: images/favicon.ico
-  logo: images/icon-black.png
-  palette:
-    primary: white
-    accent: red
+  logo: images/logo-white.png
+  # palette:
+  #   primary: white
+  #   accent: red
 
 nav:
 - Introduction: index.md

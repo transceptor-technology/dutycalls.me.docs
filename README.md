@@ -4,20 +4,13 @@ This is the repository for the DutyCalls documentation. It makes use of the Mate
 
 ## Installation
 
-Installing and verifying MkDocs is as simple as:
+Installing the required pip packages:
 
 ```bash
-pip install mkdocs && mkdocs --version
-# mkdocs, version 0.17.1
+pip install -r requirements.txt
 ```
 
 >Material requires MkDocs >= 0.17.1.
-
-Material can be installed with pip:
-
-```bash
-pip install mkdocs-material
-```
 
 ## Running
 

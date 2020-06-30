@@ -72,6 +72,8 @@ and click on the **Send** button. If all is well, you should now see a notificat
 
 ![image - Send test notification](images/setup-source-dialog-2.png)
 
+> Note: The `title` of a notification could be part of push notifications, emails, text messages being send by DutyCalls, which will be truncated when being too long. If you want to make sure that notification titles are displayed correctly, stick to a maximum of `50` characters.  
+
 ## Where to next?
 
 Now that you have set up your workspace, you might want to check out these resources.

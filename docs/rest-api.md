@@ -24,18 +24,19 @@ You can find these credentials by:
 In addition to the credentials and the data itself, the name or names of the targeted channels must also be included in the HTTP request. These can be added as the value of the query parameter `channel` in the URI of the request. An example of this can be seen below.
 
 ```curl
-curl -X POST "https://dutycalls.me/api/notification?channel=Example-Channel"
+curl -X POST "https://dutycalls.me/api/notification?channel=$CHANNEL_NAME"
     -H  "accept: application/json"
         -H  "Content-Type: application/json"
-            -d {
-                    "subject": "This is the title of the notification",
-                    "message": "This is the body of the notification",
-                    "date": 1582711182342,
-                    "urgency": 5
-                }
+            -H "Authorization: Basic $CREDENTIALS"
+                -d {
+                        "title": "This is the title of the notification",
+                        "body": "This is the body of the notification",
+                        "dateTime": 1593529902,
+                        "severity": "medium"
+                    }
 ```
 
-> Note: The `Authorization` header in in the HTTP request above is still missing and will have to be added in order to post a notification.
+> Note: The keys and values of the JSON to be sent, must exactly match the source configuration. Want to more about configuring a source within DutyCalls? Check out the [getting started](getting-started.md) guide.
 
 ## API specifications and testing
 

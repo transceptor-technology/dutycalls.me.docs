@@ -24,7 +24,7 @@ After you have signed in to your workspace, you have to add a source.
 
 ### What is a source?
 
-A source is literally the source from where you receive notifications. It is probably the system that you want to connect to DutyCalls. You do not actually have to connect your system to DutyCalls, as it uses a REST API. But you must indicate what you are going to send. Notifications can of course be sent in any format and DutyCalls not how he should interpret these notifications.
+A source is literally the source from where you receive notifications. It is probably the system that you want to connect to DutyCalls. You do not actually have to connect your system to DutyCalls, as it uses a REST API. But you must indicate what you are going to send. Notifications can be sent in any format and DutyCalls needs to now how it should interpret these notifications. So a source is actually a mapping between DutyCalls and another system.
 
 To add a source you have to go to the sources page, click here on the **Add source** button.
 
@@ -38,7 +38,7 @@ A sample is just an example of a notification (must be valid JSON) from the syst
 
 ![image - Add a source - Step 3](images/add-source-3.png)
 
-As a result, DutyCalls knows how to use and display your notification. It is also possible to disable some properties of a notification. It may of course be possible that, for example, you do not have to show a link in a notification or no severity is included in a notification. There are, however, a number of mandatory properties. These are: `title`, `body`, `dateTime`.
+As a result, DutyCalls knows how to use and display your notification. When defining a custom format, it is not mandatory to override all properties of a notification. It may of course be possible that, for example, you do not have to show a link in a notification or no severity is included in a notification. There are, however, two mandatory properties. These are: `title` and `body`.
 
 ## Step 3 - Add a channel
 
@@ -46,7 +46,7 @@ The next logical step is to add a channel.
 
 ### What is a channel?
 
-A channel can be seen as a path a notification follows after being sent. All of the notifications from all of the sources that provide the same `channelName` will gather here. When sending a notification to DutyCalls, it is also mandatory to provide the name of one or more channels. Users will be able to subscribe to these channels, what ensures that they will receive these notifications.
+A channel can be seen as a path a notification follows after being sent. All of the notifications from all of the sources that provide the same `channelName` will gather here. When sending a notification to DutyCalls, it is mandatory to provide the name of at least one channel. Users will be able to subscribe to these channels, which ensures that they will receive these notifications.
 
 To add a channel. Go to the channels page and click on the **Add channel** button.
 

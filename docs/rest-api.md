@@ -6,7 +6,7 @@ A REST API is used for accessing and manipulating data within DutyCalls by third
 
 ## Authentication
 
-All API calls require authentication. The authentication scheme we use for HTTP requests, is Basic Authentication. In every request a combination of a username (consumerKey) and a password (consumerSecret) must be provided. It is also possible to provide the following `Authorization` header: `Basic <credentials>` in a request. Where credentials is a base64-encoded string of `username:password`.
+All API calls require authentication. The authentication scheme we use for HTTP requests, is Basic Authentication. In every request a combination of a username (consumerKey) and a password (consumerSecret) must be provided. When manually sending an HTTP request to our API, the following header is required: `Authorization: Basic $CREDENTIALS`. Where `$CREDENTIALS` is a base64-encoded string of `username:password`.
 
 You can find these credentials by:
 
@@ -31,7 +31,6 @@ curl -X POST "https://dutycalls.me/api/notification?channel=$CHANNEL_NAME"
                 -d {
                         "title": "This is the title of the notification",
                         "body": "This is the body of the notification",
-                        "dateTime": 1593529902,
                         "severity": "medium"
                     }
 ```

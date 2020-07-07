@@ -432,18 +432,18 @@
 <h2 id="step-2-add-a-source">Step 2 - Add a source</h2>
 <p>After you have signed in to your workspace, you have to add a source.</p>
 <h3 id="what-is-a-source">What is a source?</h3>
-<p>A source is literally the source from where you receive notifications. It is probably the system that you want to connect to DutyCalls. You do not actually have to connect your system to DutyCalls, as it uses a REST API. But you must indicate what you are going to send. Notifications can of course be sent in any format and DutyCalls not how he should interpret these notifications.</p>
+<p>A source is literally the source from where you receive notifications. It is probably the system that you want to connect to DutyCalls. You do not actually have to connect your system to DutyCalls, as it uses a REST API. But you must indicate what you are going to send. Notifications can be sent in any format and DutyCalls needs to now how it should interpret these notifications. So a source is actually a mapping between DutyCalls and another system.</p>
 <p>To add a source you have to go to the sources page, click here on the <strong>Add source</strong> button.</p>
 <p><img alt="image - Add a source - Step 1" src="../images/add-source-1.png" /></p>
 <p>Here you will be asked for a name and optionally for a sample of a notification. This depends on whether you want to send notifications with a custom format or not.</p>
 <p><img alt="image - Add a source - Step 2" src="../images/add-source-2.png" /></p>
 <p>A sample is just an example of a notification (must be valid JSON) from the system that you want to connect to DutyCalls. After pasting it, you can map all or your keys / values to the corresponding properties of a notification within DutyCalls. Lastly, click on the <strong>Add</strong> button and the source will be added to your workspace.</p>
 <p><img alt="image - Add a source - Step 3" src="../images/add-source-3.png" /></p>
-<p>As a result, DutyCalls knows how to use and display your notification. It is also possible to disable some properties of a notification. It may of course be possible that, for example, you do not have to show a link in a notification or no severity is included in a notification. There are, however, a number of mandatory properties. These are: <code>title</code>, <code>body</code>, <code>dateTime</code>.</p>
+<p>As a result, DutyCalls knows how to use and display your notification. When defining a custom format, it is not mandatory to override all properties of a notification. It may of course be possible that, for example, you do not have to show a link in a notification or no severity is included in a notification. There are, however, two mandatory properties. These are: <code>title</code> and <code>body</code>.</p>
 <h2 id="step-3-add-a-channel">Step 3 - Add a channel</h2>
 <p>The next logical step is to add a channel.</p>
 <h3 id="what-is-a-channel">What is a channel?</h3>
-<p>A channel can be seen as a path a notification follows after being sent. All of the notifications from all of the sources that provide the same <code>channelName</code> will gather here. When sending a notification to DutyCalls, it is also mandatory to provide the name of one or more channels. Users will be able to subscribe to these channels, what ensures that they will receive these notifications.</p>
+<p>A channel can be seen as a path a notification follows after being sent. All of the notifications from all of the sources that provide the same <code>channelName</code> will gather here. When sending a notification to DutyCalls, it is mandatory to provide the name of at least one channel. Users will be able to subscribe to these channels, which ensures that they will receive these notifications.</p>
 <p>To add a channel. Go to the channels page and click on the <strong>Add channel</strong> button.</p>
 <p><img alt="image - Add a channel - Step 1" src="../images/add-channel-1.png" /></p>
 <p>You will have to fill in the following information:</p>

@@ -317,7 +317,7 @@
 <h2 id="overview">Overview</h2>
 <p>A REST API is used for accessing and manipulating data within DutyCalls by third parties.</p>
 <h2 id="authentication">Authentication</h2>
-<p>All API calls require authentication. The authentication scheme we use for HTTP requests, is Basic Authentication. In every request a combination of a username (consumerKey) and a password (consumerSecret) must be provided. It is also possible to provide the following <code>Authorization</code> header: <code>Basic &lt;credentials&gt;</code> in a request. Where credentials is a base64-encoded string of <code>username:password</code>.</p>
+<p>All API calls require authentication. The authentication scheme we use for HTTP requests, is Basic Authentication. In every request a combination of a username (consumerKey) and a password (consumerSecret) must be provided. When manually sending an HTTP request to our API, the following header is required: <code>Authorization: Basic $CREDENTIALS</code>. Where <code>$CREDENTIALS</code> is a base64-encoded string of <code>username:password</code>.</p>
 <p>You can find these credentials by:</p>
 <ol>
 <li>Going to the sources page in your workspace.</li>
@@ -338,7 +338,6 @@
                 -d {
                         &quot;title&quot;: &quot;This is the title of the notification&quot;,
                         &quot;body&quot;: &quot;This is the body of the notification&quot;,
-                        &quot;dateTime&quot;: 1593529902,
                         &quot;severity&quot;: &quot;medium&quot;
                     }
 </code></pre>

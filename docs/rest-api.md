@@ -24,13 +24,13 @@ You can find these credentials by:
 In addition to the credentials and the data itself, the name or names of the targeted channels must also be included in the HTTP request. These can be added as the value of the query parameter `channel` in the URI of the request. An example of this can be seen below.
 
 ```curl
-curl -X POST "https://dutycalls.me/api/notification?channel=$CHANNEL_NAME"
+curl -X POST "https://dutycalls.me/api/ticket?channel=$CHANNEL_NAME"
     -H  "accept: application/json"
         -H  "Content-Type: application/json"
             -H "Authorization: Basic $CREDENTIALS"
                 -d {
-                        "title": "This is the title of the notification",
-                        "body": "This is the body of the notification",
+                        "title": "This is the title of the ticket",
+                        "body": "This is the body of the ticket",
                         "severity": "medium"
                     }
 ```

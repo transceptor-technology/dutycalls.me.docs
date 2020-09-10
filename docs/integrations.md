@@ -30,7 +30,7 @@ Now that a Slack workspace has been mapped to your DutyCalls workspace, somethin
 
 1. Navigate to **Channels** > Click the **Settings** button of your desired channel > **Integrations** tab > Click on the **+** button to add a new integration.
 
-2. Select **Slack** from the dropdown list. Enter a friendly **Name** for the integration. This could be anything. After that, select the correct Slack **Workspace** and the desired Slack **Channel**. Lastly, select the events from which you want to receive updates for.
+2. Select **Slack** from the dropdown list. Enter a friendly **Name** for the integration. This could be anything, as long as it clarifies what integration is involved. After that, select the correct Slack **Workspace** and the desired Slack **Channel**. Lastly, select the events from which you want to receive updates for. <br />
 ![image - Add Slack channel integration - Step 2](images/add-slack-integration.png){: style="width:500px"}
 
 The configuration has now been completed. Event updates related to the configured DutyCalls channel will be posted in the selected Slack channel.
@@ -45,13 +45,16 @@ The only requirement for this form of integration is that you have a valid webho
 
 1. Navigate to **Channels** > Click the **Settings** button of your desired channel > **Integrations** tab > Click on the **+** button to add a new integration.
 
-2. Select **Generic Webhook** from the dropdown list. Enter a friendly **Name** for the integration. This could be anything. After that, enter the webhook URL. Lastly, select the events from which you want to receive updates for.
+2. Select **Generic Webhook** from the dropdown list. Enter a friendly **Name** for the integration. This could be anything, as long as it clarifies what integration is involved. After that, enter the webhook URL. Lastly, select the events from which you want to receive updates for. <br />
 ![image - Add Generic Webhook - Step 2](images/add-generic-webhook.png){: style="width:500px"}
 
 3. DutyCalls event updates will be send using a `HTTP` `POST` request, with as body a `JSON` object with the following format:
+
 ```json
 {
-    "text": "A message describing the event."
+    "title": "Title of the event message",
+    "text": "A message describing the event.",
+    "url": "An URL that points towards the relevent page in the application."
 }
 ```
 

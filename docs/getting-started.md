@@ -78,4 +78,4 @@ and click on the **Create** button. If all is well, you should now see a ticket 
 
 Now that you have set up your workspace, you might want to check out these resources.
 
-* Our [REST API Reference documentation](rest-api.md)
+* Our guide on how to make use of [integrations](integrations.md) within DutyCalls.

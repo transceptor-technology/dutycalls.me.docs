@@ -5,4 +5,5 @@ DutyCalls is a notification routing tool made to make events more visible to its
 In this documentation the following things are described:
 
 * How to [get started](getting-started.md)?
+* How to make use of [integrations](integrations.md) within DutyCalls?
 * How to interact with the DutyCalls [REST API](rest-api.md)?

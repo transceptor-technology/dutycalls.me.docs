@@ -47,7 +47,7 @@ To begin the integration and eventually make use of the Microsoft Teams integrat
 ![image - Add Microsoft Teams connector - Step 1](images/add-ms-teams-connector.png){: style="width:750px"}
 
 2. A new dialog will appear. Now search for the DutyCalls connector and click on the **Add** button next to it.
-3. On the DutyCalls connector configuration page, enter a name for your DutyCalls connection and click on the **Create** button.
+3. On the DutyCalls connector configuration page, enter a name for your DutyCalls connection and click on the **Create** button.  <br />
 ![image - Enter name - Step 3](images/enter-ms-teams-connector-name.png){: style="width:500px"}
 
 4. Then copy the **Webhook URL**. (You will need this later)

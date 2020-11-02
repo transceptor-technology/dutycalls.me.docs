@@ -6,7 +6,7 @@ A REST API is used for accessing and manipulating data within DutyCalls by third
 
 ## Authentication
 
-All API calls require authentication. The authentication scheme we use for HTTP requests, is Basic Authentication. In every request a combination of a username (consumerKey) and a password (consumerSecret) must be provided. When manually sending an HTTP request to our API, the following header is required: `Authorization: Basic $CREDENTIALS`. Where `$CREDENTIALS` is a base64-encoded string of `username:password`.
+All API calls require authentication. The authentication scheme we use for HTTP requests, is Basic Authentication. In every request a combination of a username and a password must be provided. When manually sending an HTTP request to our API, the following header is required: `Authorization: Basic $CREDENTIALS`. Where `$CREDENTIALS` is a base64-encoded string of `username:password`.
 
 You can find these credentials by:
 
@@ -21,7 +21,7 @@ You can find these credentials by:
 
 ## Example
 
-In addition to the credentials and the data itself, the name or names of the targeted channels must also be included in the HTTP request. These can be added as the value of the query parameter `channel` in the URI of the request. An example of this can be seen below.
+In addition to the credentials and the data itself, the name or names of the targeted channels must also be included in the HTTP request. These must be added as the value of the query parameter `channel` in the URI of the request. An example of this can be seen below.
 
 ```curl
 curl -X POST "https://dutycalls.me/api/ticket?channel=$CHANNEL_NAME"
@@ -35,7 +35,7 @@ curl -X POST "https://dutycalls.me/api/ticket?channel=$CHANNEL_NAME"
                     }
 ```
 
-> **Note**: The keys and values of the JSON to be sent, must exactly match the source configuration. Want to more about configuring a source within DutyCalls? Check out the [getting started](getting-started.md) guide.
+> **Note**: The keys and values of the JSON to be sent, must exactly match the source configuration. Want to know more about configuring a source within DutyCalls? Check out the [getting started](getting-started.md) guide.
 
 ## API specifications and testing
 

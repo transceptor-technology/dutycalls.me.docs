@@ -10,7 +10,7 @@ To start making use of our great product there are a few things that need to be 
 
 A workspace is a place where everything is done. As a user you have to be a member of a workspace to make use of the functionalities of DutyCalls. A workspace often represents a company or department. There are two ways of joining a workspace. You can get invited to one and you can create one yourself.
 
-How can I create a workspace? That is very simple. Just sign in to DutyCalls and select the **Create workspace** card.
+How can I create a workspace? That is very simple. Just sign in to DutyCalls and select the **Create workspace** button.
 
 ![image - Create a workspace - Step 1](images/create-workspace-1.png)
 
@@ -46,7 +46,7 @@ The next logical step is to add a channel.
 
 ### What is a channel?
 
-A channel can be seen as a path a ticket follows after being sent. All of the tickets from all of the sources that provide the same `channelName` will gather here. When posting a ticket to DutyCalls, it is mandatory to provide the name of at least one channel. Users will be able to subscribe to these channels, which ensures that they will receive these tickets.
+A channel can be seen as a path a ticket follows after being sent. All of the tickets from all of the sources that provide the same `channel` will gather here. When posting a ticket to DutyCalls, it is mandatory to provide the name of at least one channel. Users will be able to subscribe to these channels, which ensures that they will receive these tickets.
 
 To add a channel. Go to the channels page and click on the **Add channel** button.
 
@@ -67,12 +67,12 @@ Now click on the **Add** button and the new channel will be added to your worksp
 ## Step 4 - Create a new ticket
 
 To check if everything is set up properly, go back to the sources page and click on the **Setup** button of the source that you have just added.
-A dialog now shows up. Click on the second tab called **New Ticket** and you are ready to create a new ticket. Just fill in the required fields
+A dialog now shows up. Click on the third tab called **New Ticket** and you are ready to create a new ticket. Just fill in the required fields
 and click on the **Create** button. If all is well, you should now see a ticket in the inbox.
 
 ![image - Create new ticket](images/setup-source-dialog-2.png)
 
-> **Note**: The `title` of a ticket could be part of push notifications, emails, text messages being send by DutyCalls, which will be truncated when being too long. If you want to make sure that ticket titles are displayed correctly, stick to a maximum of `50` characters.  
+> **Note**: The `title` of a ticket could be part of push notifications, emails, text messages being send by DutyCalls, which will be truncated when being too long. If you want to make sure that ticket titles are displayed correctly, stick to a maximum of `50` characters.
 
 ## Where to next?
 

@@ -10,7 +10,7 @@ Do you want to stay informed of the latest DutyCalls updates directly in Slack? 
 
 ### Initial Configuration
 
-To begin the integration and eventually make use of the Slack integration, you will need to map your DutyCalls workspace to your Slack workspace.
+To begin the configuration and eventually make use of the Slack integration, you will need to map your DutyCalls workspace to your Slack workspace.
 
 1. Head over to **Workspace** and select the **Integrations** tab.
 2. Select the **Add** button next to Slack.
@@ -41,7 +41,7 @@ Do you want to stay informed of the latest DutyCalls updates directly in Microso
 
 ### Initial Configuration
 
-To begin the integration and eventually make use of the Microsoft Teams integration, you will need to add the DutyCalls connector to your desired Microsoft Teams channel.
+To begin the configuration and eventually make use of the Microsoft Teams integration, you will need to add the DutyCalls connector to your desired Microsoft Teams channel.
 
 1. Head over to the desired channel in Microsoft Teams, click on the ellipses next to it and select **Connectors** from the dropdown.
 ![image - Add Microsoft Teams connector - Step 1](images/add-ms-teams-connector.png){: style="width:750px"}
@@ -85,7 +85,7 @@ The only requirement for this form of integration is that you have a valid webho
 {
     "title": "Title of the event message",
     "text": "A message describing the event.",
-    "url": "An URL that points towards the relevent page in the application."
+    "url": "A HTTPS URL that points towards the relevent page in the application."
 }
 ```
 

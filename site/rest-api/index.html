@@ -1,6 +1,7 @@
 
 
 
+
 <!doctype html>
 <html lang="en" class="no-js">
   <head>
@@ -11,7 +12,7 @@
       
       
       <link rel="shortcut icon" href="../images/favicon.ico">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.5.12">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.5.14">
     
     
       
@@ -19,7 +20,7 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.4dd2dd8d.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.d3202873.min.css">
       
       
     
@@ -323,7 +324,7 @@
 <h2 id="overview">Overview</h2>
 <p>A REST API is used for accessing and manipulating data within DutyCalls by third parties.</p>
 <h2 id="authentication">Authentication</h2>
-<p>All API calls require authentication. The authentication scheme we use for HTTP requests, is Basic Authentication. In every request a combination of a username (consumerKey) and a password (consumerSecret) must be provided. When manually sending an HTTP request to our API, the following header is required: <code>Authorization: Basic $CREDENTIALS</code>. Where <code>$CREDENTIALS</code> is a base64-encoded string of <code>username:password</code>.</p>
+<p>All API calls require authentication. The authentication scheme we use for HTTP requests, is Basic Authentication. In every request a combination of a username and a password must be provided. When manually sending an HTTP request to our API, the following header is required: <code>Authorization: Basic $CREDENTIALS</code>. Where <code>$CREDENTIALS</code> is a base64-encoded string of <code>username:password</code>.</p>
 <p>You can find these credentials by:</p>
 <ol>
 <li>Going to the sources page in your workspace.</li>
@@ -336,7 +337,7 @@
 <p><strong>Important</strong>: You should store your credentials in a secure location. It is important to keep your credentials confidential to protect your account.</p>
 </blockquote>
 <h2 id="example">Example</h2>
-<p>In addition to the credentials and the data itself, the name or names of the targeted channels must also be included in the HTTP request. These can be added as the value of the query parameter <code>channel</code> in the URI of the request. An example of this can be seen below.</p>
+<p>In addition to the credentials and the data itself, the name or names of the targeted channels must also be included in the HTTP request. These must be added as the value of the query parameter <code>channel</code> in the URI of the request. An example of this can be seen below.</p>
 <pre><code class="curl">curl -X POST &quot;https://dutycalls.me/api/ticket?channel=$CHANNEL_NAME&quot;
     -H  &quot;accept: application/json&quot;
         -H  &quot;Content-Type: application/json&quot;
@@ -349,7 +350,7 @@
 </code></pre>
 
 <blockquote>
-<p><strong>Note</strong>: The keys and values of the JSON to be sent, must exactly match the source configuration. Want to more about configuring a source within DutyCalls? Check out the <a href="../getting-started/">getting started</a> guide.</p>
+<p><strong>Note</strong>: The keys and values of the JSON to be sent, must exactly match the source configuration. Want to know more about configuring a source within DutyCalls? Check out the <a href="../getting-started/">getting started</a> guide.</p>
 </blockquote>
 <h2 id="api-specifications-and-testing">API specifications and testing</h2>
 <p>For user-friendliness, we have documented and hosted the API specifications in <a href="https://app.swaggerhub.com/apis-docs/robbm1/DutyCalls">Swagger</a>. Besides the easy of use, this also makes it very easy for you to manually test our API.</p>
@@ -434,8 +435,8 @@
       
     </div>
     
-      <script src="../assets/javascripts/vendor.3636a4ec.min.js"></script>
-      <script src="../assets/javascripts/bundle.e9fe3281.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      <script src="../assets/javascripts/vendor.2d1db4bd.min.js"></script>
+      <script src="../assets/javascripts/bundle.6627ddf3.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
       
       <script>
         app = initialize({

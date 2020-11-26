@@ -7,3 +7,4 @@ In this documentation the following things are described:
 * How to [get started](getting-started.md)?
 * How to make use of [integrations](integrations.md) within DutyCalls?
 * How to interact with the DutyCalls [REST API](rest-api.md)?
+* How to post tickets to DutyCalls using [email](email.md)?

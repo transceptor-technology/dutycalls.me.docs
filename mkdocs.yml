@@ -19,6 +19,7 @@ nav:
 - Getting started: getting-started.md
 - Integrations: integrations.md
 - REST API: rest-api.md
+- Email: email.md
 
 extra_css:
   - stylesheets/extra.css

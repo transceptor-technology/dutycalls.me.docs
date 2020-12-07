@@ -20,4 +20,4 @@ You can find this email address by:
 
 The only thing left to do, is sending an email!
 
-> **Note:** Make sure the email address from which you will be sending emails is added to the list of allowed email addresses of the relevant source.
+> **Important:** You should store this email address in a secure location. It is important to keep your credentials confidential to protect your account.

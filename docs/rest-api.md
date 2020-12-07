@@ -17,7 +17,7 @@ You can find these credentials by:
 
 ![image - Get credentials](images/setup-source-dialog-1.png)
 
-> **Important**: You should store your credentials in a secure location. It is important to keep your credentials confidential to protect your account.
+> **Important:** You should store your credentials in a secure location. It is important to keep your credentials confidential to protect your account.
 
 ## Example
 
@@ -35,7 +35,7 @@ curl -X POST "https://dutycalls.me/api/ticket?channel=$CHANNEL_NAME"
                     }
 ```
 
-> **Note**: The keys and values of the JSON to be sent, must exactly match the source configuration. Want to know more about configuring a source within DutyCalls? Check out the [getting started](getting-started.md) guide.
+> **Note:** The keys and values of the JSON to be sent, must exactly match the source configuration. Want to know more about configuring a source within DutyCalls? Check out the [getting started](getting-started.md) guide.
 
 ## API specifications and testing
 

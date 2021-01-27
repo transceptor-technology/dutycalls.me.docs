@@ -4,6 +4,8 @@
 
 To start making use of our great product there are a few things that need to be done before any ticket can be received by DutyCalls. These things are thoroughly described in the following steps.
 
+---
+
 ## Step 1 - Create a workspace
 
 ### What is a workspace?
@@ -12,11 +14,13 @@ A workspace is a place where everything is done. As a user you have to be a memb
 
 How can I create a workspace? That is very simple. Just sign in to DutyCalls and select the **Create workspace** button.
 
-![image - Create a workspace - Step 1](images/create-workspace-1.png)
+![image - Create a workspace - Step 1](images/create-workspace-1.png){: style="width:500px"}
 
 Now enter a unique name for your workspace, click on the **Create** button and voila. Your workspace has been created.
 
-![image - Create a workspace - Step 2](images/create-workspace-2.png)
+![image - Create a workspace - Step 2](images/create-workspace-2.png){: style="width:500px"}
+
+---
 
 ## Step 2 - Add a source
 
@@ -44,6 +48,8 @@ The next optional step is to configure the mail for this source. The things to e
 
 Lastly, click on the **Add** button and the source will be added to your workspace.
 
+---
+
 ## Step 3 - Add a channel
 
 The next logical step is to add a channel.
@@ -68,15 +74,19 @@ Now click on the **Add** button and the new channel will be added to your worksp
 
 ![image - Add a channel - Step 2](images/add-channel-2.png)
 
+---
+
 ## Step 4 - Create a new ticket
 
 To check if everything is set up properly, go back to the sources page and click on the **Setup** button of the source that you have just added.
 A dialog now shows up. Click on the third tab called **New Ticket** and you are ready to create a new ticket. Just fill in the required fields
 and click on the **Create** button. If all is well, you should now see a ticket in the inbox.
 
-![image - Create new ticket](images/setup-source-dialog-2.png)
+![image - Create new ticket](images/setup-source-dialog-2.png){: style="width:500px"}
 
 > **Note:** The `title` of a ticket could be part of push notifications, emails, text messages being send by DutyCalls, which will be truncated when being too long. If you want to make sure that ticket titles are displayed correctly, stick to a maximum of `50` characters.
+
+---
 
 ## Where to next?
 

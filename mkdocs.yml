@@ -2,7 +2,7 @@
 site_name: DutyCalls
 
 # Copyright
-copyright: 'Copyright &copy; 2020 Transceptor Technology'
+copyright: 'Copyright &copy; 2021 Transceptor Technology'
 
 # Configuration
 theme:
@@ -17,6 +17,8 @@ theme:
 nav:
 - Introduction: index.md
 - Getting started: getting-started.md
+- Alerts: alerts.md
+- Expectations: expectations.md
 - Integrations: integrations.md
 - REST API: rest-api.md
 - Email: email.md
@@ -26,3 +28,4 @@ extra_css:
 
 markdown_extensions:
   - attr_list
+  - def_list

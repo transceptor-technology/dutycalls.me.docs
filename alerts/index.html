@@ -14,7 +14,7 @@
     
     
       
-        <title>Email - DutyCalls</title>
+        <title>Alerts - DutyCalls</title>
       
     
     
@@ -60,7 +60,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#email" class="md-skip">
+        <a href="#alerts" class="md-skip">
           Skip to content
         </a>
       
@@ -91,7 +91,7 @@
         <div class="md-header-nav__topic">
           <span class="md-ellipsis">
             
-              Email
+              Alerts
             
           </span>
         </div>
@@ -198,11 +198,76 @@
 
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../alerts/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Alerts
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Alerts
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    Overview
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#alert-types" class="md-nav__link">
+    Alert types
+  </a>
+  
+    <nav class="md-nav" aria-label="Alert types">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#manager-alerts" class="md-nav__link">
+    Manager alerts
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#subscriber-alerts" class="md-nav__link">
+    Subscriber alerts
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -258,70 +323,11 @@
 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Email
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../email/" class="md-nav__link">
         Email
       </a>
-      
-        
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#overview" class="md-nav__link">
-    Overview
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#email-address" class="md-nav__link">
-    Email address
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#allowed-email-addresses" class="md-nav__link">
-    Allowed email addresses
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#severity-rules" class="md-nav__link">
-    Severity rules
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -358,23 +364,29 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#email-address" class="md-nav__link">
-    Email address
+  <a href="#alert-types" class="md-nav__link">
+    Alert types
+  </a>
+  
+    <nav class="md-nav" aria-label="Alert types">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#manager-alerts" class="md-nav__link">
+    Manager alerts
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#allowed-email-addresses" class="md-nav__link">
-    Allowed email addresses
+        
+          <li class="md-nav__item">
+  <a href="#subscriber-alerts" class="md-nav__link">
+    Subscriber alerts
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#severity-rules" class="md-nav__link">
-    Severity rules
-  </a>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -391,59 +403,33 @@
               
                 
                 
-                <h1 id="email">Email</h1>
+                <h1 id="alerts">Alerts</h1>
 <h2 id="overview">Overview</h2>
-<p>Email can be used for posting tickets to DutyCalls by third parties.</p>
+<p>Would you like to stay up to date on the latest events in a workspace? Make use of alerts. These can be configured globally per workspace or specifically per channel depending on the type of the alert.</p>
 <hr />
-<h2 id="email-address">Email address</h2>
-<p>Posting tickets to a DutyCalls channel requires a special email address. This email address is unique and can only be used for posting to this channel.</p>
-<p>You can find this email address by:</p>
-<ol>
-<li>Going to the channels page in your workspace.</li>
-<li>Clicking on the <strong>Settings</strong> button of the relevant channel.</li>
-<li>Navigating to the <strong>Email</strong> tab.</li>
-<li>Verifying that you are authorized to access this email address.</li>
-<li>
-<p>Copying the email address from the settings dialog.</p>
-<p><img alt="image - Get channel email" src="../images/get-channel-email.png" /></p>
-</li>
-</ol>
-<p>The only thing left to do, is sending an email!</p>
-<blockquote>
-<p><strong>Important:</strong> You should store this email address in a secure location. It is important to keep your credentials confidential to protect your account.</p>
-</blockquote>
-<hr />
-<h2 id="allowed-email-addresses">Allowed email addresses</h2>
-<p>Before sending an email it is important to add the email address to the list of allowed email addresses. Otherwise DutyCalls will ignore mails from this email address.</p>
-<p>You can add your email address by:</p>
-<ol>
-<li>Going to the sources page in your workspace.</li>
-<li>Clicking on the <strong>Edit</strong> button of the relevant channel.</li>
-<li>Navigating to the <strong>Email</strong> tab.</li>
-<li>Opening the <strong>Allowed email addresses</strong> panel.</li>
-<li>
-<p>Add your email address to the list of allowed email addresses.</p>
-<p><img alt="image - Add allowed email address" src="../images/add-allowed-email-address.png" /></p>
-</li>
-</ol>
-<hr />
-<h2 id="severity-rules">Severity rules</h2>
-<p>Do you need to link a severity to your emails? This is possible by adding severity rules.</p>
-<p>You can add severity rules by:</p>
-<ol>
-<li>Going to the sources page in your workspace.</li>
-<li>Clicking on the <strong>Edit</strong> button of the relevant channel.</li>
-<li>Navigating to the <strong>Email</strong> tab.</li>
-<li>Opening the <strong>Severity rules</strong> panel.</li>
-<li>
-<p>Clicking on the <strong>Add rule</strong> button.</p>
-<p><img alt="image - Severity rules panel" src="../images/severity-rules-panel.png" style="width:500px" /></p>
-</li>
-<li>
-<p>The last step is to indicate which severity should be assigned to mails with which characteristics.</p>
-<p><img alt="image - Add severity rule" src="../images/add-severity-rule.png" style="width:500px" /></p>
-</li>
-</ol>
+<h2 id="alert-types">Alert types</h2>
+<h3 id="manager-alerts">Manager alerts</h3>
+<p>Alerts of this type will be sent to the manager of the channel.</p>
+<dl>
+<dt><code>Number of channel subscribers</code></dt>
+<dd>This alert will be raised when too few users have subscribed themselves on a particular channel. The minimum number of subscribers can be configured in the <strong>General</strong> section of the channel settings.</dd>
+<dt><code>Number of active channel subscribers</code></dt>
+<dd>This alert will be raised when too few active users have subscribed themselves on a particular channel. The minimum number of subscribers can be configured in the <strong>General</strong> section of the channel settings.</dd>
+<dt><code>Ticket unacknowledged too long</code></dt>
+<dd>This alert will be raised when a ticket has been unacknowledged for too long. This time can be configured globally per workspace or specifically per channel in the <strong>Alerts</strong> section of the settings. The time will be reset when the status of the ticket changes.</dd>
+<dt><code>Ticket acknowledged too long</code></dt>
+<dd>This alert will be raised when a ticket has been acknowledged for too long. This time can be configured globally per workspace or specifically per channel in the <strong>Alerts</strong> section of the settings. The time will be reset when the status of the ticket changes.</dd>
+<dt><code>Ticket open too long</code></dt>
+<dd>This alert will be raised when a ticket has been open for too long. This time can be configured globally per workspace or specifically per channel in the <strong>Alerts</strong> section of the settings. The time will be reset when the status of the ticket changes.</dd>
+<dt><code>Expectation rule not met</code></dt>
+<dd>This alert will be raised when an expectation rule has not been met. These expectation rules can be configured in the <strong>Expectations</strong> section of the channel settings.</dd>
+</dl>
+<h3 id="subscriber-alerts">Subscriber alerts</h3>
+<p>Alerts of this type will be sent to the subscribers of the channel.</p>
+<dl>
+<dt><code>Severity threshold exceeded</code></dt>
+<dd>This alert will be raised when a ticket arrives in DutyCalls with a severity higher than the configured threshold. The threshold can be configured globally per workspace or specifically per channel in the <strong>Alerts</strong> section of the settings.</dd>
+</dl>
                 
               
               
@@ -468,7 +454,7 @@
 
       <!-- Link to previous page -->
       
-      <a href="../rest-api/" title="REST API"
+      <a href="../getting-started/" title="Getting started"
         class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
         <div class="md-footer-nav__button md-icon">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
@@ -478,13 +464,28 @@
             <span class="md-footer-nav__direction">
               Previous
             </span>
-            REST API
+            Getting started
           </div>
         </div>
       </a>
       
 
       <!-- Link to next page -->
+      
+      <a href="../expectations/" title="Expectations"
+        class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+        <div class="md-footer-nav__title">
+          <div class="md-ellipsis">
+            <span class="md-footer-nav__direction">
+              Next
+            </span>
+            Expectations
+          </div>
+        </div>
+        <div class="md-footer-nav__button md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+        </div>
+      </a>
       
     </nav>
   </div>

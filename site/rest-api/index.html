@@ -415,13 +415,13 @@
 <p>In addition to the credentials and the data itself, the name or names of the targeted channels must also be included in the HTTP request. These must be added as the value of the query parameter <code>channel</code> in the URI of the request. An example of this can be seen below.</p>
 <pre><code class="language-curl">curl -X POST &quot;https://dutycalls.me/api/ticket?channel=$CHANNEL_NAME&quot;
     -H  &quot;accept: application/json&quot;
-        -H  &quot;Content-Type: application/json&quot;
-            -H &quot;Authorization: Basic $CREDENTIALS&quot;
-                -d {
-                        &quot;title&quot;: &quot;This is the title of the ticket&quot;,
-                        &quot;body&quot;: &quot;This is the body of the ticket&quot;,
-                        &quot;severity&quot;: &quot;medium&quot;
-                    }
+    -H  &quot;Content-Type: application/json&quot;
+    -H &quot;Authorization: Basic $CREDENTIALS&quot;
+    -d {
+            &quot;title&quot;: &quot;This is the title of the ticket&quot;,
+            &quot;body&quot;: &quot;This is the body of the ticket&quot;,
+            &quot;severity&quot;: &quot;medium&quot;
+       }
 </code></pre>
 <blockquote>
 <p><strong>Note:</strong> The keys and values of the JSON to be sent, must exactly match the source configuration. Want to know more about configuring a source within DutyCalls? Check out the <a href="../getting-started/">getting started</a> guide.</p>

@@ -414,8 +414,8 @@
 <h2 id="example">Example</h2>
 <p>In addition to the credentials and the data itself, the name or names of the targeted channels must also be included in the HTTP request. These must be added as the value of the query parameter <code>channel</code> in the URI of the request. An example of this can be seen below.</p>
 <pre><code class="language-curl">curl -X POST &quot;https://dutycalls.me/api/ticket?channel=$CHANNEL_NAME&quot;
-    -H  &quot;accept: application/json&quot;
-    -H  &quot;Content-Type: application/json&quot;
+    -H &quot;accept: application/json&quot;
+    -H &quot;Content-Type: application/json&quot;
     -H &quot;Authorization: Basic $CREDENTIALS&quot;
     -d {
             &quot;title&quot;: &quot;This is the title of the ticket&quot;,

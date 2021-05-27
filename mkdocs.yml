@@ -19,6 +19,7 @@ nav:
 - Getting started: getting-started.md
 - Alerts: alerts.md
 - Expectations: expectations.md
+- Actions: actions.md
 - Integrations: integrations.md
 - REST API: rest-api.md
 - Email: email.md

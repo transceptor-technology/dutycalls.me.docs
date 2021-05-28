@@ -8,4 +8,4 @@ When DutyCalls receives a ticket, it checks whether certain actions need to be a
 
 * **Auto-close** - the ticket will be closed under the name of a provided workspace user.
 
-How does DutyCalls know when to execute these actions? One or more of these three actions can be configured for a certain tag. When a ticket contains that tag the corresponding actions will be executed.
+How does DutyCalls know when to execute these actions? One or more of these three actions can be configured for a certain tag. The corresponding actions will be executed in case a ticket contains that tag.

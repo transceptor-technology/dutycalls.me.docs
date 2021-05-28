@@ -20,6 +20,7 @@ nav:
 - Alerts: alerts.md
 - Expectations: expectations.md
 - Integrations: integrations.md
+- Tags: tags.md
 - REST API: rest-api.md
 - Email: email.md
 

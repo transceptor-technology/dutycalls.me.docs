@@ -58,3 +58,4 @@ extra_css:
 markdown_extensions:
   - attr_list
   - def_list
+  - admonition

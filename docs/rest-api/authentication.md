@@ -11,4 +11,5 @@ You can find these credentials by:
 
     ![image - Get credentials](../images/setup-source-dialog-1.png){: style="width:500px"}
 
-> **Important:** You should store your credentials in a secure location. It is important to keep your credentials confidential to protect your account.
+!!! warning
+    You should store your credentials in a secure location. It is important to keep your credentials confidential to protect your account.

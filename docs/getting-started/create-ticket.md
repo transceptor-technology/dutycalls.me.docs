@@ -8,4 +8,5 @@ To check if everything is set up properly:
 
 ![image - Create new ticket](../images/setup-source-dialog-2.png){: style="width:500px"}
 
-> **Note:** The `title` of a ticket could be part of push notifications, emails, text messages being send by DutyCalls, which will be truncated when being too long. If you want to make sure that ticket titles are displayed correctly, stick to a maximum of `50` characters.
+!!! note
+    The `title` of a ticket could be part of push notifications, emails, text messages being send by DutyCalls, which will be truncated when being too long. If you want to make sure that ticket titles are displayed correctly, stick to a maximum of `50` characters.

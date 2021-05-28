@@ -14,4 +14,5 @@ You can find this email address by:
 
 The only thing left to do, is sending an email!
 
-> **Important:** You should store this email address in a secure location. It is important to keep your credentials confidential to protect your account.
+!!! warning
+    You should store this email address in a secure location. It is important to keep your credentials confidential to protect your account.

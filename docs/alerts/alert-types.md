@@ -1,14 +1,6 @@
-# Alerts
+# Alert types
 
-## Overview
-
-Would you like to stay up to date on the latest events in a workspace? Make use of alerts. These can be configured globally per workspace or specifically per channel depending on the type of the alert.
-
----
-
-## Alert types
-
-### Manager alerts
+## Manager alerts
 
 Alerts of this type will be sent to the manager of the channel.
 
@@ -30,7 +22,9 @@ Alerts of this type will be sent to the manager of the channel.
 `Expectation rule not met`
 :   This alert will be raised when an expectation rule has not been met. These expectation rules can be configured in the **Expectations** section of the channel settings.
 
-### Subscriber alerts
+---
+
+## Subscriber alerts
 
 Alerts of this type will be sent to the subscribers of the channel.
 

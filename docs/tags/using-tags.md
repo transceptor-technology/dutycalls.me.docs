@@ -1,10 +1,4 @@
-# Tags
-
-## Overview
-
-Do you want add tags to tickets within DutyCalls? These tags can be used for filtering purposes and running configured actions when a ticket is received with a certain tag.
-
----
+# Using tags
 
 ## Adding tags
 
@@ -19,6 +13,6 @@ Tags can be configured workspace wide. When previously unexisting tags are recei
 1. Going to the **Workspace** settings page in your workspace.
 2. Selecting the **Tags** tab.
 
-    ![image - Configure workspace tags](images/workspace-tags.png)
+    ![image - Configure workspace tags](../images/workspace-tags.png)
 
 Here you can view the tags used in the workspace and delete them if necessary.

@@ -10,20 +10,47 @@ theme:
   custom_dir: theme
   favicon: images/favicon.ico
   logo: images/logo-white.png
-  # palette:
-  #   primary: white
-  #   accent: red
+  features:
+    - navigation.tabs
+    - navigation.sections
 
 nav:
-- Introduction: index.md
-- Getting started: getting-started.md
-- Alerts: alerts.md
-- Expectations: expectations.md
-- Actions: actions.md
-- Integrations: integrations.md
-- Tags: tags.md
-- REST API: rest-api.md
-- Email: email.md
+- Home: index.md
+- Getting started:
+  - Overview: getting-started/index.md
+  - Create a workspace: getting-started/create-workspace.md
+  - Add a source: getting-started/add-source.md
+  - Add a channel: getting-started/add-channel.md
+  - Create a ticket: getting-started/create-ticket.md
+  - Where to next?: getting-started/where-to-next.md
+- Alerts:
+  - Overview: alerts/index.md
+  - Alert types: alerts/alert-types.md
+- Expectations:
+  - Overview: expectations/index.md
+  - Expectation rules: expectations/expectation-rules.md
+- Integrations:
+  - Overview: integrations/index.md
+  - Slack: integrations/slack.md
+  - Microsoft Teams: integrations/microsoft-teams.md
+  - Generic webhook: integrations/generic-webhook.md
+- Tags:
+  - Overview: tags/index.md
+  - Using tags: tags/using-tags.md
+- Actions:
+  - Overview: actions/index.md
+  - What are actions?: actions/what-are-actions.md
+  - Configuring actions: actions/configuring-actions.md
+- REST API:
+  - Overview: rest-api/index.md
+  - Authentication: rest-api/authentication.md
+  - Example request: rest-api/example-request.md
+  - API specifications: rest-api/api-specifications.md
+- Email:
+  - Overview: email/index.md
+  - Email address: email/email-address.md
+  - Allowed email addresses: email/allowed-email-addresses.md
+  - Severity rules: email/severity-rules.md
 
 extra_css:
   - stylesheets/extra.css

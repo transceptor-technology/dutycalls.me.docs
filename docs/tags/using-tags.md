@@ -2,7 +2,7 @@
 
 ## Adding tags
 
-Tags can be simply added to tickets by adding the tags property when posting tickets via the [REST API](rest-api.md).
+Tags can be simply added to tickets by adding the tags property when creating them.
 
 ---
 

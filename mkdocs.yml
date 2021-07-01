@@ -41,6 +41,7 @@ nav:
   - Overview: actions/index.md
   - What are actions?: actions/what-are-actions.md
   - Configuring actions: actions/configuring-actions.md
+  - HTTP(S) requests: actions/http-requests.md
 - REST API:
   - Overview: rest-api/index.md
   - Authentication: rest-api/authentication.md

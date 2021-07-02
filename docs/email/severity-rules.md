@@ -1,8 +1,8 @@
 # Severity rules
 
-Do you need to link a severity to your emails? This is possible by adding severity rules.
+Do you want to add a severity to your emails? This is possible by configuring severity rules.
 
-You can add severity rules by:
+You can configure severity rules by:
 
 1. Going to the **Sources** page in your workspace.
 2. Clicking on the **Edit** button of the relevant channel.

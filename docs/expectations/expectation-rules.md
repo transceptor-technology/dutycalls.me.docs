@@ -10,7 +10,7 @@ Expectation rules ensure that when a certain ticket is not received that is expe
 
 Adding an expectation rule is very simple! Just follow the next steps:
 
-1. Navigate to **Channels** > Click the **Settings** button of your desired channel > **Expectations** tab > Click on the **+ Add rule** button to add a new expecation rule.
+1. Navigate to **Channels** > Click the **Settings** button of your desired channel > Select the **Expectations** tab > Click on the **+ Add rule** button to add a new expecation rule.
 
     ![image - Add Expectation Rule - Step 1](../images/add-expectation-rule-1.png)
 

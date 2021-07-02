@@ -4,7 +4,7 @@
 
 When you want to add an action of type **Run HTTP request**, some additional configuration is required. The steps are as follows:
 
-1. Go back to the "Add action" dialog, select a tag to which you want the HTTP request and now select the **Run HTTP request** type.
+1. Go back to the "Add action" dialog, select a tag to which you want the HTTP request and now select the **Run HTTP request** action type.
 
     ![image - Add action HTTP request - Step 1](../images/add-action-http-request-1.png)
 

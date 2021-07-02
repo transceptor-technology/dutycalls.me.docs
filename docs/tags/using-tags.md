@@ -8,7 +8,7 @@ Tags can be simply added to tickets by adding the tags property when creating th
 
 ## Configuring tags
 
-Tags can be configured workspace wide. When previously unexisting tags are received by DutyCalls these will automatically be added to the workspace. You can find these tags by:
+Tags can be configured workspace wide. When previously unexisting tags are received by DutyCalls, these will automatically be added to the workspace. You can find these tags by:
 
 1. Going to the **Workspace** settings page in your workspace.
 2. Selecting the **Tags** tab.

@@ -8,7 +8,7 @@ Do you have another application that you would like to integrate with DutyCalls?
 
 The only requirement for this form of integration is that you have a valid webhook URL to which DutyCalls can post event updates.
 
-1. Navigate to **Channels** > Click the **Settings** button of your desired channel > **Integrations** tab > Click on the **Add integration** button to add a new integration.
+1. Navigate to **Channels** > Click on the **Settings** button of your desired channel > Select the **Integrations** tab > Click on the **Add integration** button to add a new integration.
 
 2. Select **Generic Webhook** from the dropdown list. Enter a friendly **Name** for the integration. This could be anything, as long as it clarifies what integration is involved. After that, enter the webhook URL. Lastly, select the events from which you want to receive updates for.
 

@@ -29,7 +29,7 @@ Click on the **Allow** button to authorize. When this step is finished, you are 
 
 Now that a Slack workspace has been mapped to your DutyCalls workspace, something else needs to be done before messages (event updates) are posted to Slack and that is adding a channel integration within DutyCalls.
 
-1. Navigate to **Channels** > Click the **Settings** button of your desired channel > Select the **Integrations** tab > Click on the **+** button to add a new integration.
+1. Navigate to **Channels** > Click on the **Settings** button of your desired channel > Select the **Integrations** tab > Click on the **Add integration** button to add a new integration.
 
 2. Select **Slack** from the dropdown list. Enter a friendly **Name** for the integration. This could be anything, as long as it clarifies what integration is involved. After that, select the correct Slack **Workspace** and the desired Slack **Channel**. Lastly, select the events from which you want to receive updates for.
 

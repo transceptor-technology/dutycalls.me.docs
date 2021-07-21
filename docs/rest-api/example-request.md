@@ -15,4 +15,4 @@ curl -X POST "https://dutycalls.me/api/ticket?channel=$CHANNEL_NAME"
 ```
 
 !!! note
-    The keys and values of the JSON to be sent, must exactly match the source configuration. Want to know more about configuring a source within DutyCalls? Check out the [getting started](getting-started.md) guide.
+    The keys and values of the JSON to be sent, must exactly match the source configuration. Want to know more about configuring a source within DutyCalls? Check out the [getting started](../getting-started/add-source.md) guide.

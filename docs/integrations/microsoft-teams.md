@@ -29,7 +29,7 @@ Click on the **Save** button to activate the connection. When this step is finis
 
 Now that the DutyCalls connector has been configured on a Microsoft Teams channel, something else needs to be done before messages (event updates) are posted to Microsoft Teams and that is adding a channel integration within DutyCalls.
 
-1. Navigate to **Channels** > Click the **Settings** button of your desired channel > **Integrations** tab > Click on the **+** button to add a new integration.
+1. Navigate to **Channels** > Click the **Settings** button of your desired channel > Select the **Integrations** tab > Click on the **+** button to add a new integration.
 
 2. Select **Microsoft Teams** from the dropdown list. Enter a friendly **Name** for the integration. This could be anything, as long as it clarifies what integration is involved. After that, enter the **URL** you copied earlier. Lastly, select the events from which you want to receive updates for.
 

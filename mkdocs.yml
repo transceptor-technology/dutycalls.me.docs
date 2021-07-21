@@ -23,17 +23,18 @@ nav:
   - Add a channel: getting-started/add-channel.md
   - Create a ticket: getting-started/create-ticket.md
   - Where to next?: getting-started/where-to-next.md
-- Alerts:
-  - Overview: alerts/index.md
-  - Alert types: alerts/alert-types.md
-- Expectations:
-  - Overview: expectations/index.md
-  - Expectation rules: expectations/expectation-rules.md
 - Integrations:
   - Overview: integrations/index.md
   - Slack: integrations/slack.md
   - Microsoft Teams: integrations/microsoft-teams.md
   - Generic webhook: integrations/generic-webhook.md
+- Alerts:
+  - Overview: alerts/index.md
+  - Configuring alerts: alerts/configuring-alerts.md
+  - Alert types: alerts/alert-types.md
+- Expectations:
+  - Overview: expectations/index.md
+  - Expectation rules: expectations/expectation-rules.md
 - Tags:
   - Overview: tags/index.md
   - Using tags: tags/using-tags.md
@@ -41,10 +42,12 @@ nav:
   - Overview: actions/index.md
   - What are actions?: actions/what-are-actions.md
   - Configuring actions: actions/configuring-actions.md
+  - HTTP(S) requests: actions/http-requests.md
 - REST API:
   - Overview: rest-api/index.md
   - Authentication: rest-api/authentication.md
   - Example request: rest-api/example-request.md
+  - Deduplication: rest-api/deduplication.md
   - API specifications: rest-api/api-specifications.md
 - Email:
   - Overview: email/index.md
